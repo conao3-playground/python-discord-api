@@ -11,6 +11,7 @@ discord-api = "discord_api.main:main"
 [tool.poetry.dependencies]
 python = "^3.11"
 discord-py = "^2.2.2"
+pydantic = {extras = ["dotenv"], version = "^1.10.7"}
 
 [build-system]
 requires = ["poetry-core"]
